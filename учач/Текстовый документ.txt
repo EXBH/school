@@ -1,0 +1,15 @@
+        setTimeout(() => {
+
+          // Добавляем новое препятствие
+          // Очищаем зелёный участок и перемещаем квадрат
+          x = 0 // Начальная позиция квадрата
+          y = 0
+          img1.style.display = "block"
+
+          function nextlevel_1(){
+            level++;
+            LevelUp = true;
+            obstacles.push({ x: 200, y: 500, size: 30 });
+            
+          }
+        }, 1000); // Задержка 1 секунда

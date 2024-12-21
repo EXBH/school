@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+canvas {
+  display: none;
+  background-color: #9c9c9c;
+}
+
+#gameCanvas_1 {
+  display: block;
+}
+
+#gameCanvas_3 {
+  display: none;
+}
+
+#img1, #img2 {
+  width: 1540px;
+  height: 600px;
+  display: none;
+}
+h2{
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  /* font-size: 50px; */
+}
+h1{
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  /* font-size: 50px; */
+
+}
